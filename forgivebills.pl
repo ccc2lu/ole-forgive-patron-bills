@@ -27,7 +27,6 @@ use POSIX qw(strftime);
 $inputfile=$ARGV[0];
 open(INPUT, "<$inputfile") or die "Unable to open input file $inputfile";
 
-print "Enter database username: ";
 $username = "OLEuser";
 $host = "dbhost";
 $dbname = "oledb";
